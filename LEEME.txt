@@ -1,0 +1,15 @@
+ENTREGA EPI SOLEMCCOR - aplicación instalable (versión cifrada)
+================================================================
+
+Archivos de este paquete (todos en la raíz, sin carpetas):
+  index.html              formulario CIFRADO (pide la clave de acceso al abrirse)
+  manifest.webmanifest    nombre e iconos de la aplicación
+  sw.js                   permite usarla sin conexión
+  icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png, favicon.ico   iconos (logo de Cáritas)
+
+Publicación en GitHub Pages: subir estos archivos a un repositorio y activar Pages (rama main, carpeta raíz).
+Instalación en la tablet o el móvil: abrir la dirección en Chrome, escribir la clave y elegir
+"Instalar aplicación" en el menú. En iPad/iPhone: Safari > Compartir > "Añadir a pantalla de inicio".
+
+La clave NO está escrita en ningún archivo. Para cambiarla hay que volver a cifrar el formulario y subir de nuevo index.html.
+Si se modifica el formulario, cambiar también el número de VERSION en sw.js para que los equipos se actualicen.
